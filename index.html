@@ -1,7 +1,33 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
-author_profile: true
+layout: splash
+title: "Daniel Drasler"
+header:
+  overlay_color: "#1a1a2e"
+  actions:
+    - label: "Read About Me"
+      url: "/about/"
+excerpt: >
+  Cybersecurity engineering @ Kent State. Detection engineering, security analytics, home lab projects.
+intro:
+  - excerpt: 'A portfolio of security-engineering projects, detection writeups, and analytics work.'
+feature_row:
+  - title: "Projects"
+    excerpt: "Hands-on security engineering — home lab builds, detection rules, automation tools."
+    url: "/projects/"
+    btn_label: "Browse Projects"
+    btn_class: "btn--primary"
+  - title: "Writeups"
+    excerpt: "Deeper dives on what I built, what broke, and what I learned along the way."
+    url: "/year-archive/"
+    btn_label: "Read Writeups"
+    btn_class: "btn--primary"
+  - title: "About"
+    excerpt: "Background, interests, and how to get in touch."
+    url: "/about/"
+    btn_label: "About Me"
+    btn_class: "btn--primary"
 ---
+
+{% include feature_row id="intro" type="center" %}
+
+{% include feature_row %}
