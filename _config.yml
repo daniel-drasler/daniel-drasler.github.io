@@ -23,6 +23,7 @@ twitter_username: username
 github_username: daniel-drasler
 minimal_mistakes_skin: "dark"
 search: true
+breadcrumbs: true
 
 # Build settings
 markdown: kramdown
